@@ -11,29 +11,29 @@
     - [x] This will output the path, typically something like `/opt/homebrew/opt/php@8.0`
        
 - ### Step 2: Update MAMP's PHP Configuration
-    1. Go to
+    - [x] Go to
     ```
         Applications/MAMP/bin/php/
     
     ```
      
-    3. Create a new folder named php8.0.30
-    4. Inside this folder, create symbolic links to the necessary binaries from your Homebrew installation:
+    - [x] Create a new folder named php8.0.30
+    - [x] Inside this folder, create symbolic links to the necessary binaries from your Homebrew installation:
     ```
         ln -s /opt/homebrew/opt/php@8.0/bin/php php
         ln -s /opt/homebrew/opt/php@8.0/sbin/php-fpm php-fpm
         ln -s /opt/homebrew/opt/php@8.0/lib/httpd/modules modules
     ```
-    5. Make sure to replace the paths with the actual output from the brew --prefix php@8.0 command if it's different.
+    - [x] Make sure to replace the paths with the actual output from the brew --prefix php@8.0 command if it's different.
 
 - ### Step 3: Update MAMP's PHP Preferences
-    1. Open MAMP
-    2. Go to MAMP Preferences > PHP
-    3. Select 8.0.30 from the dropdown. If it doesn't appear, you may need to restart MAMP or manually edit MAMP's configuration files to include this version.
+    - [x] Open MAMP
+    - [x] Go to MAMP Preferences > PHP
+    - [x] Select 8.0.30 from the dropdown. If it doesn't appear, you may need to restart MAMP or manually edit MAMP's configuration files to include this version.
 
 - ### Step 4: Verify and Restart
-    1. Restart MAMP
-    2. Check the PHP version by creating a phpinfo() file in your MAMP htdocs folder and accessing it via your browser.
+    - [x] Restart MAMP
+    - [x] Check the PHP version by creating a phpinfo() file in your MAMP htdocs folder and accessing it via your browser.
     ```
         <?php
             /* Use the following code to show all the information about PHP. */
