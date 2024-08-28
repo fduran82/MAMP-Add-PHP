@@ -3,12 +3,12 @@
 ### example: trying to use PHP 8.0.30
 
 - ### Step 1: Locate Homebrew PHP 8.0.30 Path
-    [x] Run the following command in your terminal to find the path of PHP 8.0.30 installed by Homebrew:
+    - [x] Run the following command in your terminal to find the path of PHP 8.0.30 installed by Homebrew:
     ```
         brew --prefix php@8.0
     
     ```
-    [x] This will output the path, typically something like `/opt/homebrew/opt/php@8.0`
+    - [x] This will output the path, typically something like `/opt/homebrew/opt/php@8.0`
        
 - ### Step 2: Update MAMP's PHP Configuration
     1. Go to
