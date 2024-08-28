@@ -24,7 +24,7 @@
         ln -s /opt/homebrew/opt/php@8.0/sbin/php-fpm php-fpm
         ln -s /opt/homebrew/opt/php@8.0/lib/httpd/modules modules
     ```
-      Make sure to replace the paths with the actual output from the brew --prefix php@8.0 command if it's different.
+    5. Make sure to replace the paths with the actual output from the brew --prefix php@8.0 command if it's different.
 
 - ### Step 3: Update MAMP's PHP Preferences
     1. Open MAMP
